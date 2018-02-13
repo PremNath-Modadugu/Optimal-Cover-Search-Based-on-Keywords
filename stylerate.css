@@ -1,0 +1,537 @@
+/* CSS Document */
+body{
+    margin:0px; 
+    padding:0px; 
+    background:url(images/main-bg.gif) 0 0 repeat-x #F2F0DC; 
+    color:#5D5B46; 
+    font:14px/18px Georgia, "Times New Roman", Times, serif;
+}
+div, p, ul, h2, img{
+    margin:0px;
+    padding:0px;
+}
+ul{
+    list-style-type:none;
+}
+
+/*----TOP PANEL----*/
+#topPan{
+    width:778px;
+    height:141px;
+    position:relative;
+    margin:0 auto;
+    font:14px/18px Arial, Helvetica, sans-serif;
+}
+#topPan ul{
+    width:125px;
+    height:22px; 
+    position:absolute;
+    top:0px; 
+    right:130px;
+}
+#topPan ul li{
+    float:left;
+    width:45px;
+    height:22px;
+}
+#topPan ul li a{
+    width:45px;
+    height:16px;
+    display:block;
+    background:url(images/arrow1.gif) 40px 6px no-repeat #CC0000;
+    color:#fff;
+    font:13px/16px Arial, Helvetica, sans-serif; 
+    text-decoration:none;
+}
+#topPan ul li a:hover{
+    background:url(images/arrow1-hover.gif) 40px 6px no-repeat #CC0000; 
+    color:#FEF0B7; 
+    text-decoration:none;
+}
+
+#topPan img.logo{
+    width:281px;
+    height:56px; 
+    position:absolute;
+    top:53px;
+    left:29px;
+}
+
+#topPan p.callus{
+    width:119px;
+    height:25px;
+    background:url(images/callus-bg.gif) 0 0 no-repeat #212121; 
+    color:#fff; 
+    position:absolute; 
+    top:53px; 
+    right:115px; 
+    line-height:24px; 
+    text-align:center;
+}
+#topPan p.phone{
+    width:130px;
+    height:25px;
+    background:#212121;
+    color:#EAE8CD;
+    position:absolute;
+    top:83px; 
+    right:109px;
+    font-size:20px;
+    line-height:25px;
+    text-align:center;
+}
+
+/*----/TOP PANEL----*/
+
+/*----HEADER- PANEL----*/
+#headerPan{
+    width:778px;
+    height:228px;
+    position:relative;
+    margin:0 auto;
+}
+#headerleftPan{
+    width:46px; 
+    height:143px;
+    float:left;
+    background:url(images/leftfolder.gif) 0 0 no-repeat;
+}
+/*----Header Middle Panel----*/
+#headermiddlePan{
+    width:686px; 
+    height:228px; 
+    float:left;
+}
+
+/*----Menu Panel----*/
+#menuPan{
+    width:686px;
+    height:33px; 
+    background:url(images/menu-bg.gif) 0 0 repeat-x; 
+    position:relative; 
+    margin:0 auto;
+}
+#menuPan ul{
+    width:660px;
+    height:28px;
+    position:absolute;
+    top:2px; 
+    left:14px;
+}
+#menuPan ul li{
+    width:110px;
+    height:28px;
+    float:left;
+}
+#menuPan ul li a{
+    width:109px;
+    height:28px;
+    display:block; 
+    background:#fff;
+    color:#2F2A28; 
+    border-right:1px dashed #969260; 
+    font:13px/28px Arial, Helvetica, sans-serif;
+    font-weight:bold; 
+    text-align:center; 
+    text-decoration:none;
+}
+#menuPan ul li a:hover{
+    width:110px; 
+    height:28px; 
+    background:#2F2A28; 
+    color:#fff; 
+    border:none; 
+    text-decoration:none;
+}
+
+#menuPan ul li.home{
+    width:110px;
+    height:28px;
+    background:#2F2A28; 
+    color:#fff; 
+    font:13px/28px Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+    text-align:center; 
+    border:none; 
+    text-decoration:none;
+}
+
+#menuPan ul li.contact a{
+    width:110px; 
+    height:28px; 
+    display:block; 
+    background:#fff; 
+    color:#2F2A28; 
+    border:none; 
+    font:13px/28px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    text-align:center; 
+    text-decoration:none;
+}
+#menuPan ul li.contact a:hover{
+    width:110px; 
+    height:28px; 
+    background:#2F2A28; 
+    color:#fff; 
+    border:none; 
+    text-decoration:none;
+}
+
+/*----/Menu Panel----*/
+#headerbodyPan{
+    width:686px; 
+    height:100px; 
+    position:absolute; 
+    top:42px; 
+    left:46px; 
+    background:#FEFDF1; 
+    color:#fff; 
+    border-bottom:1px solid #CDCAA3; 
+    border-top:1px solid #CDCAA3;
+}
+/*---- Header Red Panel----*/
+#headerleftredPan{
+    height:100px; 
+    color:#fff; 
+    position:absolute;
+    top:32px; 
+    left:0px;
+}
+/*----Header MORE Panel----*/
+#headermorePan{
+    width:47px; 
+    height:123px; 
+    position:absolute; 
+    top:32px; 
+    right:0px; 
+    font:13px/14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+#headermorePan a{
+    width:39px; 
+    height:38px;
+    display:block;
+    background:url(images/headermore-normal.gif) 0 0 no-repeat #FEFDF1; 
+    color:#FDFCEC; text-decoration:none;
+    padding:85px 0 0 8px;
+}
+#headermorePan a:hover{
+    background:url(images/headermore-hover.gif) 0 0 no-repeat; 
+    text-decoration:none;
+}
+
+/*----/Header MORE Panel----*/
+/*----Header Middle Panel----*/
+#headerrightPan{
+    width:46px;
+    height:143px; 
+    float:left; 
+    background:url(images/rightfolder.gif) 0 0 no-repeat;
+}
+/*----HEADER- PANEL----*/
+
+/*----BODY PANEL----*/
+#bodyPan{
+    width:680px; 
+    height:250px;
+    margin-left: 350px;
+}
+#bodyPan h2{
+    width:300px;
+    height:54px;
+    background:#F2F0DC;
+    color:#D80000; 
+    font:26px/54px "Trebuchet MS",Arial, Helvetica, sans-serif;
+}
+
+/*----FOOTER PANEL----*/
+#footermainPan{
+    height:90px;
+    background:url(images/footerbg.gif) 0 0 repeat-x #3B3B3B; 
+    color:#fff; 
+    font:13px/20px "Trebuchet MS",Arial, Helvetica, sans-serif; 
+    position:relative; 
+    margin:0 auto; 
+    clear:both; 
+    padding:75px 0 0;
+}
+
+#footerPan{
+    width:700px; 
+    position:relative; 
+    margin:0 auto;
+}
+
+#footerPan ul{
+    width:480px;
+    height:20px;
+    position:relative;
+    margin:0 auto;
+}
+#footerPan li{
+    float:left;
+}
+#footerPan ul li a{
+    padding:0 10px 0; 
+    color:#fff; 
+    background:#3B3B3B;
+    text-decoration:none; 
+    font-size:12px;
+}
+#footerPan ul li a:hover{
+    text-decoration:underline;
+}
+
+#footerPan p.copyright{
+    width:220px; 
+    position:relative; 
+    margin:0 auto; 
+    background:#3B3B3B; 
+    color:#fff;  
+    font-size:11px;
+}
+
+#footerPan ul.templateworld{
+    width:250px; 
+    background:#3B3B3B; 
+    color:#fff; 
+    display:block;
+    position:absolute;
+    top:70px;
+    left:260px; 
+    font-size:10px;
+}
+#footerPan ul.templateworld li{
+    height:20px;
+}
+#footerPan ul.templateworld li a{
+    background:#3B3B3B; 
+    display:block; 
+    color:#fff;
+    text-decoration:none; 
+    padding:0px;
+}
+#footerPan ul.templateworld li a:hover{
+    text-decoration:underline;
+}
+
+#footerPancss{
+    width:58px; 
+    height:24px; 
+    display:block; 
+    position:absolute; 
+    top:45px; 
+    left:340px;
+}
+#footerPancss a{
+    width:58px; 
+    height:24px; 
+    display:block; 
+    background:url(images/css-bg-normal.gif) 0 0 no-repeat #3B3B3B; 
+    color:#fff; 
+    font-size:14px; 
+    line-height:24px; 
+    font-weight:bold; 
+    text-decoration:none; 
+    text-transform:uppercase;
+    padding:0 0 0 8px;
+}
+#footerPancss a:hover{
+    background:url(images/css-bg-hover.gif) 0 0 no-repeat #3B3B3B;
+    color:#fff; 
+    text-decoration:none;
+}
+/*----/FOOTER PANEL----*/
+
+/*Button Start*/
+.myButton {
+    -moz-box-shadow:inset 1px 3px 5px 0px #ffffff;
+    -webkit-box-shadow:inset 1px 3px 5px 0px #ffffff;
+    box-shadow:inset 1px 3px 5px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+    background-color:#ededed;
+    -webkit-border-top-left-radius:16px;
+    -moz-border-radius-topleft:16px;
+    border-top-left-radius:16px;
+    -webkit-border-top-right-radius:16px;
+    -moz-border-radius-topright:16px;
+    border-top-right-radius:16px;
+    -webkit-border-bottom-right-radius:16px;
+    -moz-border-radius-bottomright:16px;
+    border-bottom-right-radius:16px;
+    -webkit-border-bottom-left-radius:16px;
+    -moz-border-radius-bottomleft:16px;
+    border-bottom-left-radius:16px;
+    text-indent:-3px;
+    border:4px solid #dcdcdc;
+    display:inline-block;
+    color:#777777;
+    font-family:arial;
+    font-size:18px;
+    font-weight:bold;
+    font-style:normal;
+    height:40px;
+    line-height:20px;
+    width:145px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 2px 0px #ffffff;
+}
+.myButton:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+    background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+    background-color:#dfdfdf;
+}.myButton:active {
+    position:relative;
+    top:1px;
+}
+/*Button End*/
+.textbox {
+    height: 25px;
+    width: 275px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font-family:  sans-serif;
+    font-size: 20px;
+    background: #FFFFFF url('bg_form.png') left top repeat-x;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 8px;
+}
+
+.textbox:focus {
+    border-color: #C9C9C9;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 8px;
+}  
+.circle {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 1em auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+    border: 5px solid #eee;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+}
+
+#listPen{
+    width:348px;
+    height:33px; 
+    background:url(images/menu-bg.gif) 0 0 repeat-x; 
+    position:relative; 
+    margin:0 auto;
+}
+#listPen ul{
+    width:660px;
+    height:28px;
+    position:absolute;
+    top:2px; 
+    left:14px;
+}
+#listPen ul li{
+    width:110px;
+    height:28px;
+    float:left;
+}
+#listPen ul li a{
+    width:109px;
+    height:28px;
+    display:block; 
+    background:#fff;
+    color:#2F2A28; 
+    border-right:1px dashed #969260; 
+    font:13px/28px Arial, Helvetica, sans-serif;
+    font-weight:bold; 
+    text-align:center; 
+    text-decoration:none;
+}
+#listPen ul li a:hover{
+    width:110px; 
+    height:28px; 
+    background:#2F2A28; 
+    color:#fff; 
+    border:none; 
+    text-decoration:none;
+}
+/*Rating Star*/
+form .stars {
+  background: url("'../images/star.jpg'") repeat-x 0 0;
+  width: 150px;
+  margin: 0 auto;
+}
+ 
+form .stars input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+form .stars input[type="radio"].star-5:checked ~ span {
+  width: 100%;
+}
+form .stars input[type="radio"].star-4:checked ~ span {
+  width: 80%;
+}
+form .stars input[type="radio"].star-3:checked ~ span {
+  width: 60%;
+}
+form .stars input[type="radio"].star-2:checked ~ span {
+  width: 40%;
+}
+form .stars input[type="radio"].star-1:checked ~ span {
+  width: 20%;
+}
+form .stars label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0!important;
+  padding: 0!important;
+  text-indent: -999em;
+  float: left;
+  position: relative;
+  z-index: 10;
+  background: transparent!important;
+  cursor: pointer;
+}
+form .stars label:hover ~ span {
+  background-position: 0 -30px;
+}
+form .stars label.star-5:hover ~ span {
+  width: 100% !important;
+}
+form .stars label.star-4:hover ~ span {
+  width: 80% !important;
+}
+form .stars label.star-3:hover ~ span {
+  width: 60% !important;
+}
+form .stars label.star-2:hover ~ span {
+  width: 40% !important;
+}
+form .stars label.star-1:hover ~ span {
+  width: 20% !important;
+}
+form .stars span {
+  display: block;
+  width: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 30px;
+  background: url('images/stars.png') repeat-x 0 -60px;
+  -webkit-transition: -webkit-width 0.5s;
+  -moz-transition: -moz-width 0.5s;
+  -ms-transition: -ms-width 0.5s;
+  -o-transition: -o-width 0.5s;
+  transition: width 0.5s;
+}
+/*Rating Star End*/
